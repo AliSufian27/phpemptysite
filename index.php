@@ -6,7 +6,7 @@
 
 $conn = mysqli_connect($servername, $username, $password,$dbname);
 	
-$sql = "INSERT INTO info (Value) VALUES (11)";
+$sql = "INSERT INTO info (Value) VALUES (12)";
 if(mysqli_query($conn,$sql))
 {
 	echo "Done YoY :)";
